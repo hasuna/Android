@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:layout_gravity="bottom|center"
+    tools:context="com.example.administrator.jsq.MainActivity">
+        <TextView
+            android:hint="0"
+            android:id="@+id/in"
+            android:textSize="25dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"
+            android:maxEms="10"/>
+            />
+        <TextView
+            android:id="@+id/out"
+            android:textSize="25dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"
+            />
+        <Button android:text="十转二" android:id="@+id/buttonto2"/>
+        <Button android:text="八进制" android:id="@+id/buttonto8"/>
+        <Button android:text="十六进制" android:id="@+id/buttonto16"/>
+        <Button android:text="二转十" android:id="@+id/button2to10"/>
+
+        <Button android:text="loge" android:id="@+id/buttonloge" android:textAllCaps="false"/>
+        <Button android:text="log10" android:id="@+id/buttonlog10" android:textAllCaps="false"/>
+        <Button android:text="立方" android:id="@+id/buttonx3"/>
+        <Button android:text="平方" android:id="@+id/buttonx2"/>
+
+        <Button android:text="sin" android:id="@+id/buttonsin" android:textAllCaps="false"/>
+        <Button android:text="cos" android:id="@+id/buttoncos" android:textAllCaps="false"/>
+        <Button android:text="tan" android:id="@+id/buttontan" android:textAllCaps="false"/>
+        <Button android:text="√" android:id="@+id/buttonsqrt"/>
+
+        <Button android:text="(" android:id="@+id/buttonleft"/>
+        <Button android:text=")" android:id="@+id/buttonright"/>
+        <Button android:text="ce" android:id="@+id/buttonc"/>
+        <Button android:text="←" android:id="@+id/buttonback"/>
+
+        <Button android:text="1" android:id="@+id/button1"/>
+        <Button android:text="2" android:id="@+id/button2"/>
+        <Button android:text="3" android:id="@+id/button3"/>
+        <Button android:text="+" android:id="@+id/buttonadd"/>
+
+        <Button android:text="4" android:id="@+id/button4"/>
+        <Button android:text="5" android:id="@+id/button5"/>
+        <Button android:text="6" android:id="@+id/button6"/>
+        <Button android:text="-" android:id="@+id/buttonminus"/>
+
+        <Button android:text="7" android:id="@+id/button7"/>
+        <Button android:text="8" android:id="@+id/button8"/>
+        <Button android:text="9" android:id="@+id/button9"/>
+        <Button android:text="*" android:id="@+id/buttonmultiply"/>
+
+        <Button android:text="." android:id="@+id/buttonpoint"/>
+        <Button android:text="0" android:id="@+id/button0"/>
+        <Button android:text="=" android:id="@+id/buttonequal"/>
+        <Button android:text="/" android:id="@+id/buttondivide"/>
+
+
+</GridLayout>
