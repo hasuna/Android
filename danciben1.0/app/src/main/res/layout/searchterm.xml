@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView android:text="单词搜索"
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:ems="8"
+            android:id="@+id/txtSearchWord"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+</TableLayout>

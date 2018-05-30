@@ -1,0 +1,17 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/select_city"
+        android:title="切换城市" />
+</group>
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/select_background"
+        android:title="设置背景" />
+</group>
+
+
+</menu>

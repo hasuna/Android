@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value = "cool_weather"></dbname>//数据库名
+
+    <version value = "1"></version>
+
+    <list>//将三个实体类添加到映射列表中
+        <mapping class = "xbt.exp20.db.Province"></mapping>
+        <mapping class = "xbt.exp20.db.City"></mapping>
+        <mapping class = "xbt.exp20.db.County"></mapping>
+    </list>
+
+</litepal>
